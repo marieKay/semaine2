@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h2>Nous souhaitons nous améliorer</h2>
+
+<p>Dis moi comment je peux m'améliorer.</p>
+
+    <form>
+        <label for="nom">Ton Nom:</label><br>
+        <input type="text" id="nom" name="nom" value="Kayumba Marie"><br>
+        <label for="email">Ton Email:</label><br>
+        <input type="text" id="email" name="email" value="marie.kayumba@yahoo.fr">
+        <label for="age">Ton Age</label>
+        <input type="number" name="age" id="age">
+    </form>
+
+
+
+
+    <p>Qu'est-ce qui te correspond le mieux à l'instant présent:</p>
+    
+    <form action="/action_page.php">
+    
+    <select id="métier" name="mérier" size="5" multiple>
+        <option value="Employé">Employé</option>
+        <option value="toi">Dis moi plus sur toi</option>
+        <option value="Etudiant">Etudiant</option>
+        <option value="rien">Je ne préfère rien dire</option>
+        <option value="autre">Autre</option>
+    </select><br><br>
+    <input type="submit">
+    </form>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>Est-ce que tu me recommandes?</h2>
+    <form>
+        <input type="radio" id="Oui" name="réponse" value="oui">
+        <label for="oui">Oui</label><br>
+        <input type="radio" id="peut-être" name="réponse" value="peut-être">
+        <label for="peut-être">Peut-être</label><br>
+        <input type="radio" id="non" name="réponse" value="non">
+        <label for="non">Non</label>
+    </form> 
+
+
+
+
+
+    <p>Pourquoi as tu choisis mes services?</p>
+    
+    <form action="/action_page.php">
+        <select id="service" name="service">
+        <option value="propose">Pour ce que je propose</option>
+        <option value="projets">Pour les différents projets réalisés</option>
+        <option value="recommendation">Par recommendation</option>
+        <option value="communauté">Le fait d'être transparent avec ma communauté</option>
+        </select>
+    </form>
+
+
+
+
+
+
+
+<p><strong>Qu'est-ce que je dois améliorer ?</strong> (choix illimité):</p>
+
+<form action="/action_page.php">
+    <input type="checkbox" id="réponse1" name="réponse1" value="Portfolio">
+    <label for="réponse1">Le Portfolio</label><br>
+    <input type="checkbox" id="réponse2" name="réponse2" value="page de vente">
+    <label for="réponse2">Présence sur lesréseaux sociaux</label><br>
+    <input type="checkbox" id="réponse3" name="réponse3" value="contact">
+    <label for="réponse3">Le formulaire de contact</label><br><br>
+<input type="checkbox" id="réponse4" name="réponse4" value="design">
+<label for="réponse4">Le design du portfolio</label><br>
+
+</form> 
+
+
+<p>Un commentaire à ajouter ?</p>
+
+<form action="/action_page.php">
+    <textarea name="message" rows="10" cols="30">Chaque commentaire nous fait avancer, alors n'hésites pas.</textarea>
+    <br><br>
+    <input type="submit">
+</form>
+
+
+</body>
+</html>
